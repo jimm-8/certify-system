@@ -39,7 +39,7 @@ export default function LoadingPage() {
             </label>
             <input
               type="email"
-              name="email"
+              name="username"
               id="email"
               placeholder="Username"
               className="w-full border border-[#E0E0E0] rounded-sm p-1 text-xs mt-1.5 h-8"
