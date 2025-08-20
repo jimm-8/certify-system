@@ -13,6 +13,7 @@ export default function LoadingPage() {
   const [isActivateAccountModalOpen, setIsActivateAccountModalOpen] =
     useState(false);
   const [showPassword, setShowPassword] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleOpenModal = () => {
     setIsActivateAccountModalOpen(true);
